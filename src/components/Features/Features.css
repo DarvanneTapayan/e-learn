@@ -1,0 +1,13 @@
+.e-learn__features__sm-bl {
+    width: 38px;
+    height: 5px;
+    background-color: var(--main-color);
+    box-shadow:  0 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: .6rem;
+}
+.e-learn__features__title h1 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+

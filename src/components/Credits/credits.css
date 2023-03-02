@@ -1,0 +1,27 @@
+.e-learn__credits {
+    background-color: #111315;
+}
+
+.e-learn__credits-container {
+    border-top: 1px solid #474747;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: .5rem;
+}
+
+.logo {
+    width: 120px;
+}
+
+.e-learn__credits-left {
+    display: flex;
+    align-items: center;
+}
+
+
+.e-learn__credits-left p{
+    font-size: 12px;
+    padding-left: 2rem;
+}
+

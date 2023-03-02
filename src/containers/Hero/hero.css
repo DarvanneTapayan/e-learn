@@ -1,0 +1,46 @@
+.e-learn__hero1-content {
+    background-color: var(--dark-bg-color);
+    
+}
+
+.e-learn__hero1-content_container {
+    display: flex;
+}
+
+.e-learn-hero1-right-text {
+    flex: 1;
+    margin: auto 0;
+    max-width: 480px;
+    margin-left: auto;
+}
+
+
+.e-learn-hero1-right-image {
+    flex: 1;
+}
+
+@media screen and (max-width: 1050px) {
+    .e-learn__hero1-content_container {
+        flex-direction: column-reverse;
+    }
+    .e-learn-hero1-right-text {
+        padding: 0;
+        margin-bottom: 5rem;
+        max-width: 700px;
+        margin-left: 0;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .e-learn__hero1-left-image {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 700px) {
+   
+}
+
+
+@media screen and (max-width: 550px) {
+
+}

@@ -1,0 +1,143 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Tilt+Warp&display=swap');
+
+.font-style {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Tilt Warp';
+}
+
+:root {
+    --text-color: #F3F2F4;
+    --dark-bg-color: #161A1D;
+    --main-color: #BD1DE3;
+    --semi-text-color: #CECECE;
+    
+}
+
+.linear__text {
+    background: #8308C2;
+    background: linear-gradient(to right, #8308C2 0%, #A5EEE1 93%);
+    -webkit-text-fill-color: transparent;
+}
+
+.linear__text_main-color {
+    background: #8308C2;
+    background: linear-gradient(to right, #8308C2 0%, #6C01B5 93%);
+    -webkit-text-fill-color: transparent;
+}
+
+.bg__color {
+  background: linear-gradient(177.31deg, #161A1D 52.29%, #9958C6 760.33%);
+}
+
+.img-fluid {
+  width: 100%;
+}
+
+.max-width {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slide-left {
+	-webkit-animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+
+.title-gradient {
+  background: linear-gradient(89.95deg, #BD19E4 -7.15%, #6C01B5 106.71%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.title-gradient-2 {
+  background: linear-gradient(270deg, #A5EEE1 49.92%, #8308C2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+}
+
+.title {
+  font-family: 'Tilt Warp';
+  font-size: 40px;
+  line-height: 45px;
+  margin-bottom: 1rem;
+}
+
+.des-text {
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 1.5rem;
+}
+
+ @-webkit-keyframes slide-left {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(-100px);
+              transform: translateX(-100px);
+    }
+  }
+  @keyframes slide-left {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(-100px);
+              transform: translateX(-100px);
+    }
+  }
+
+
+
+@media screen and (max-width: 1050px) {
+  .max-width {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .max-width {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }  
+
+
+     
+}
+
+
+@media screen and (max-width: 550px) {
+  .max-width {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }  
+
+  .title {
+    font-size: 32px;
+    line-height: 36px;
+    margin-bottom: 1rem;
+  }
+
+  .des-text {
+    color: var(--semi-text-color);
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 1rem;
+  }
+
+}
+  
+

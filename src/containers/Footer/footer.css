@@ -1,0 +1,34 @@
+.e-learn__footer {
+    background-color: #111315;
+}
+
+.e-learn__footer-grid-links {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    row-gap: 3rem;
+}
+
+.e-learn__footer-links h6 {
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.e-learn__footer-links p {
+    color: #CECECE;
+    font-size: 16px;
+    margin-bottom: .6rem;
+}
+
+.e-learn__footer-links p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.e-learn__footer-social-media-links {
+    display: flex;
+}
+
+.e-learn__footer-social-media-links  img {
+    width: 30px;
+    padding-right: .5rem;
+}

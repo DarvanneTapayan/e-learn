@@ -1,0 +1,57 @@
+.e-learn__community-box {
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #D0CAE4;
+    max-width: 1200px;
+    border-radius: 20px;
+
+    display: flex;
+}
+
+.e-learn__community-text {
+    flex: 2;
+    min-width: 400px;
+}
+
+.e-learn__community-image {
+    margin-top: -100px;
+}
+.e-learn__community-box h1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #2C2C2C;
+    margin-bottom: 1rem;
+}
+
+.e-learn__community-box p {
+    font-size: 18px;
+    color: #2C2C2C;
+    margin-bottom: 1rem;
+}
+
+.e-learn__community-box button {
+    background: linear-gradient(89.41deg, #BD19E4 7.43%, #21202B 211.91%);
+    padding: .5rem 1.5rem;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.teacher {
+    width: 320px;
+}
+
+
+@media screen and (max-width: 1050px) {
+    .e-learn__community-box {
+        flex-direction: column-reverse;
+    }
+    .e-learn__community-text {
+        text-align: center;
+        min-width: 0;
+    }
+    .e-learn__community-image {
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }
+}
+    

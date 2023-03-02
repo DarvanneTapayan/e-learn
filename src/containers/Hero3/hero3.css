@@ -1,0 +1,56 @@
+.e-learn__hero3-content {
+    background-color: var(--dark-bg-color);
+}
+.e-learn__hero3-content_container {
+    display: flex;
+}
+.e-learn__hero3__content__left-image {
+    flex: 1;
+}
+.e-learn__hero3__content__right-text {
+    margin: auto 0;
+    flex: 1;
+}
+.e-learn___hero3__right-box {
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+.e-learn__hero3__right-box__title {
+    flex: .7;
+    padding-right: 1rem;
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.e-learn__hero3__right-box__title  h3 {
+    color: #FF36FF;
+}
+.e-learn__hero3__right-box__text {
+    flex: 2;
+}
+
+@media screen and (max-width: 1050px) {
+    .e-learn__hero3-content_container {
+        flex-direction: column;
+    }
+    .e-learn__hero3__content__left-image {
+        margin: 0 auto;
+        margin-bottom: 5rem;
+    }
+    .e-learn__hero3__content__right-text  {
+        margin: 0 auto;
+        max-width: 650px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .e-learn___hero3__right-box {
+        flex-direction: column;
+    }
+    
+    .e-learn__hero3__right-box__title {
+        margin-bottom: .5rem;
+    }
+}

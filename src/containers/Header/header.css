@@ -1,0 +1,54 @@
+.e-learn__hero-content {
+    display: flex;
+}
+
+.e-learn__hero-text {
+    flex: 1;
+    margin: auto 0;
+    padding-right: 1rem;
+}
+.e-learn__right-image {
+    flex: 1;
+}
+
+.e-learn__input {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-right: 2rem;
+}
+
+.e-learn__input input {
+    padding: .56rem 1rem;
+    width: 100%;
+    border-radius: 5px 0 0 5px;
+}
+.e-learn__input button {
+    color: var(--text-color);
+    font-size: 18px;
+    background-color: var(--main-color);
+    padding: .5rem 1.5rem;
+    outline: none;
+    border-radius: 0 5px 5px 0;
+}
+
+@media screen and (max-width: 1050px) {
+    .e-learn__hero-content {
+        flex-direction: column-reverse;
+    }
+    .e-learn__right-image {
+        margin: 0 auto;
+        margin-bottom: 5rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .e-learn__hero-text {
+        padding: 0;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+
+}
